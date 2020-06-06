@@ -12,7 +12,7 @@ const start = async () => {
   'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.39 Safari/537.36';
   await page.setUserAgent(userAgent);
   await page.goto('http://web.whatsapp.com')
-  await page.waitForSelector('._2Uo0Z', {timeout: 60000})
+  await page.waitForSelector('._3FRCZ', {timeout: 60000})
   
   console.log('logged in')
 
